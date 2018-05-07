@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
-project(kaoyan C)
+project(kaoyan)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(helloworld helloworld.c)
+add_executable(kaoyan unit2/triangle.cpp)
