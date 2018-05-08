@@ -3,4 +3,4 @@ project(kaoyan)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(kaoyan unit2/triangle.cpp)
+add_executable(kaoyan unit3/UVa1586.cpp)
