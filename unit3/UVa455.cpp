@@ -6,9 +6,20 @@
 #include "iostream"
 using namespace std;
 int main(){
-int a[10005];
-for(int i=0;i<strlen(a);i++)
-{
-
-}
+int times;
+scanf("%d",&times);
+while(times--)
+    { int c;
+    char a[85];
+    char *b=a;
+    scanf("%s",a);
+    int len;
+    len=strlen(a);
+    for(int i=2;i<=len/2;i++)
+        { int temp;
+            if(!strncmp(b,b+len/i,len/i))
+            printf("%d",len/i);
+        }
+    printf("\n");
+    }
 }
